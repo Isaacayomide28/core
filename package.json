@@ -66,8 +66,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup && tsc --emitDeclarationOnly",
-    "dev": "tsup --watch",
+    "build": "node init && tsup && tsc --emitDeclarationOnly",
+    "dev": "node init && tsup --watch",
     "typecheck": "tsc --noEmit",
     "typecheck:examples": "tsc -p examples/router-swap/tsconfig.json",
     "test": "vitest --run",

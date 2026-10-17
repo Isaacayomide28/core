@@ -8,9 +8,9 @@
     "sorokit": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc -p tsconfig.json",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx src/index.ts",
     "test": "npm run build && node --test dist/lib/*.test.js"
   },
   "dependencies": {
