@@ -1,8 +1,6 @@
 node_modules/
 dist/
 examples/*/dist/
-.env
-.env.local
 *.tsbuildinfo
 coverage/
 docs/api/
@@ -11,3 +9,8 @@ docs/api/
 scripts/
 .eslintrc.json
 fix.md
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
