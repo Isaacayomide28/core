@@ -4,6 +4,7 @@ examples/*/dist/
 .env
 .env.local
 *.tsbuildinfo
+temp_auto_push.bat
 coverage/
 docs/api/
 .DS_Store
@@ -11,3 +12,5 @@ docs/api/
 scripts/
 .eslintrc.json
 fix.md
+.gitignore
+branch_structure.json
